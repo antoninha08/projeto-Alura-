@@ -1,1 +1,35 @@
+:root {
+    --laranja-claro: #FF7A00;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
 
+body {
+    font-size: 1rem;
+    background-color: #e6f2ff;
+    font-family: 'Optima', sans-serif;
+    color: #000;
+}
+
+.nav-link, .btn {
+    color: #000 !important;
+}
+
+.secao-viagens h2 {
+    font-weight: bold;
+}
+
+.rounded-pill {
+    border: 5px solid #000;
+}
+
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo) !important;
+    color: var(--alto-contraste-texto) !important;
+}
+
+.alto-contraste .nav-link,
+.alto-contraste .btn {
+    color: var(--alto-contraste-link) !important;
+}
